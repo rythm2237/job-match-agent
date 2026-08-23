@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Job Match",
+    "slug": "job-match",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "jobmatch",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": ["expo-router", "expo-secure-store"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rythm.jobmatch"
+    },
+    "android": {
+      "package": "com.rythm.jobmatch",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F8FA"
+      }
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
